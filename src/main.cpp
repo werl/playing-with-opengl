@@ -259,6 +259,9 @@ int main(int argc, char **argv)
     glDeleteTextures(1, &textureDirt);
     image->releaseImage();
 
+    delete image;
+    delete image2;
+
     glfwTerminate();
     return 0;
 }
