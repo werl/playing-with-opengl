@@ -258,6 +258,7 @@ int main(int argc, char **argv)
     gl::glDeleteVertexArrays(1, &VertexArrayID);
     glDeleteTextures(1, &textureDirt);
     image->releaseImage();
+    image2->releaseImage();
 
     delete image;
     delete image2;
