@@ -96,6 +96,7 @@ void computeMatricesFromInputs(GLFWwindow* window, int width, int height) {
 void keyCallback(GLFWwindow* window, int key, int scanCode, int action, int mods) {
     const char* keyName = glfwGetKeyName(key, scanCode);
     printf("%s \n", keyName);
+    printf("%i %i \n", key, scanCode);
 }
 
 void mouseButtonCallback(GLFWwindow* window, int button, int action, int mods) {
